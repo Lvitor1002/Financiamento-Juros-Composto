@@ -1,0 +1,42 @@
+@media screen and (max-width: 800px){
+    header{
+        gap: 0px;
+    }
+    .icons{
+        display: none;
+    }
+   
+    header h1{
+        padding: 13px 19px;
+        font-size: 35px
+    }
+    .formulario{
+        gap: 30px;
+        margin-top: 60px;
+    }
+    .formulario #vFinanciamento{
+        width: 360px;
+        padding: 10px;
+        background-color: rgba(255, 255, 255, 0.138);
+        border-radius: 10px;
+    }
+    .formulario #pvFinanciamento{
+        position: relative;
+        top: 20px;
+    }
+    .controleInputs{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 370px;
+    }
+    .controleDiv input{
+        width: 360px;
+    }
+    .controleResultado{
+        width: 370px;
+    }
+    .controleResultado p{
+        right: 30%;
+    }
+    
+}
